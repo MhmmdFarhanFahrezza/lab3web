@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Dropdown dan Listbox</title>
+</head>
+<body>
+    <h2>Form Dropdown dan Listbox</h2>
+    <form action="proses_form.php" method="post">
+        <label for="pilihan">Pilih salah satu opsi:</label>
+        <select id="pilihan" name="pilihan">
+            <option value="opsi1">Opsi 1</option>
+            <option value="opsi2">Opsi 2</option>
+            <option value="opsi3">Opsi 3</option>
+        </select>
+
+        <br><br>
+
+        <label for="multiple">Pilih beberapa opsi:</label>
+        <select id="multiple" name="multiple[]" multiple>
+            <option value="opsiA">Opsi A</option>
+            <option value="opsiB">Opsi B</option>
+            <option value="opsiC">Opsi C</option>
+            <option value="opsiD">Opsi D</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
